@@ -20,6 +20,7 @@ To ensure TMBL can maintain operations during a disruption, I mapped the critica
 ---
 
 #### **2. Identification of Single Points of Failure (SPOFs)**
+![ServiceMap](service_map.png)
 Through this mapping, I identified a critical **Third-Party SPOF**:
 * **The Vulnerability:** TMBL relies exclusively on a single third-party provider for Multi-Factor Authentication (MFA). 
 * **The Risk:** If this provider suffers a regional outage (as seen in recent global SaaS incidents), 100% of remote staff and 60% of office-based staff would be unable to access the Core Banking System.
